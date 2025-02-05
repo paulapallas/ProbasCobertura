@@ -1,0 +1,9 @@
+package paulapallas;
+
+public class  TestProfesor {
+    public static void main(String[] args) {
+
+        Profesor profe = new Profesor();
+        profe.setNombre()
+    }
+}
