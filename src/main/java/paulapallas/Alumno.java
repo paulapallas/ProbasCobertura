@@ -16,6 +16,8 @@ public class Alumno extends Persona{
     public void setAutorizaTutores(boolean autorizaTutores) {
         this.autorizaTutores = autorizaTutores;
     }
+
+    
     @Override
     public String toString() {
         return "Alumno [codigoXade=" + codigoXade + ", autorizaTutores=" + autorizaTutores + "]";

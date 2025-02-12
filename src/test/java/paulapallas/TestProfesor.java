@@ -1,5 +1,6 @@
 package paulapallas;
 
+
 public class TestProfesor {
     public static void main(String[] args) {
         Profesor profe = new Profesor();
@@ -9,3 +10,5 @@ public class TestProfesor {
         System.out.println(profe.getNombre());
     }
 }
+
+

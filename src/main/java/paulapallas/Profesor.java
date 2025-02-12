@@ -51,6 +51,7 @@ public class Profesor extends Persona{
         return "Profesor [especialidad=" + especialidad + ", cuerpo=" + cuerpo + ", sustituto=" + sustituto
                 + ", fecOposicion=" + fecOposicion + "]";
     }
+    
 
     public void setNombre(String string) {
         throw new UnsupportedOperationException("Unimplemented method 'setNombre'");
