@@ -53,7 +53,6 @@ public class Profesor extends Persona{
     }
 
     public void setNombre(String string) {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'setNombre'");
     }
 
