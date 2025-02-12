@@ -4,25 +4,21 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 
 import org.junit.jupiter.api.Test;
 
-public class TestCiclo {
+public class TestMatricula {
 
-
-    @Test
+     @Test
      public void comprobarConstructorVacio(){
 
-        Ciclo daw = new Ciclo();
+        Matricula alumno1 = new Matricula();
 
         //boolean resultado = mengano.getNombre() == null;
         //assertTrue(resultado);
         
-        assertNull(daw.getNombre());
-        assertNull(daw.getCodigo());
-        assertNull(daw.getNivel());
-        assertNull(daw.getCentro());
+        assertNull(alumno1.getAlumno());
+        assertNull(alumno1.getModulo());
+        assertNull(alumno1.getNota());
+        assertNull(alumno1.getCurso());
        
     }
-
-
-
     
 }
