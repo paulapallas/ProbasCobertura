@@ -22,6 +22,12 @@ public class Centro{
 
 
 
+    public Centro() {
+        //TODO Auto-generated constructor stub
+    }
+
+
+
     public Integer getCodigo() {
         return codigo;
     }

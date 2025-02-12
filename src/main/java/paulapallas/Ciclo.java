@@ -17,6 +17,9 @@ public  class Ciclo {
         this.nivel = nivel;
         this.centro = centro;
     }
+    public Ciclo() {
+        //TODO Auto-generated constructor stub
+    }
     public String getCodigo() {
         return codigo;
     }
