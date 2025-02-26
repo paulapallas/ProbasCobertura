@@ -8,6 +8,7 @@ import static  org.junit.jupiter.api.Assertions.assertTrue;
 import java.time.LocalDate;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
 
 public class TestPersona {
 
@@ -20,6 +21,8 @@ public class TestPersona {
         boolean resultado = mengano.getNombre() == "Pepe";
 
         assertTrue(resultado);
+
+        
     }
 
     @Test
@@ -98,5 +101,8 @@ public class TestPersona {
 
         String tmp = "Persona [dni=12345678R, nombre=Pepe, apellido1=Romero, apellido2=Torres, correo=pepe@gmail.com, movil=123456789, fecNacimiento=2025-01-29, iban=ES123456789]";
         assertEquals(mengano.toString(), tmp);
-    }    
+    }
+    
+   
+
 }

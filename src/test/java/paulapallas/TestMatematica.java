@@ -1,7 +1,13 @@
 package paulapallas;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
+import paulapallas.Matematica.Calculate;
 
 public class TestMatematica {
     
@@ -56,4 +62,12 @@ public class TestMatematica {
         int[] expected = {};
         assertArrayEquals(expected, Matematica.bubbleSort(input));
     }
+
+    @ParameterizedTest
+    @ValueSource(ints = {0, 2, 4, 6}) 
+    void given_4_even_numbers_should_return_true(int number) {
+        assertTrue(Calculate.isEven(number));
+    }
+
+
 }

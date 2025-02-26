@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.time.LocalDate;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
 
 public class TestModulo {
 
@@ -75,7 +76,14 @@ public class TestModulo {
     
             String tmp = "Modulo [codigo=prog, nombre=Programación, descripcion=Aprender a programar,horas=300,sesiones=30]";
             assertEquals(programacion.toString(), tmp);
-        }    
+        }
+
+
+        
+
+     
+        
+        
     
     
 
