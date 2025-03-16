@@ -1,14 +1,13 @@
 package paulapallas;
 
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
-import static  org.junit.jupiter.api.Assertions.assertTrue;
-
 import java.time.LocalDate;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static  org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
+
 
 public class TestPersona {
 
@@ -18,7 +17,7 @@ public class TestPersona {
         Persona mengano = new Persona();
         mengano.setNombre("Pepe");
 
-        boolean resultado = mengano.getNombre() == "Pepe";
+        boolean resultado = "Pepe".equals(mengano.getNombre());
 
         assertTrue(resultado);
 
@@ -102,6 +101,10 @@ public class TestPersona {
         String tmp = "Persona [dni=12345678R, nombre=Pepe, apellido1=Romero, apellido2=Torres, correo=pepe@gmail.com, movil=123456789, fecNacimiento=2025-01-29, iban=ES123456789]";
         assertEquals(mengano.toString(), tmp);
     }
+
+
+  
+
     
    
 

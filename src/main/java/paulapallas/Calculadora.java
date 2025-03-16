@@ -21,6 +21,15 @@ public class Calculadora {
         }
         return (double) a / b;
     }
+
+    public void imprimir() {
+        System.out.println("pepe");
+    }
+
+    public String imprimirEnPdf() {
+        return "Pepe";
+    }
 }
+
     
 

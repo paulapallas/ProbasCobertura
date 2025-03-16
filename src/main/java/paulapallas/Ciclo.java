@@ -7,9 +7,6 @@ public  class Ciclo {
     private Centro centro;
 
 
-
-    
-
     
     public Ciclo(String codigo, String nombre, Nivel nivel, Centro centro) {
         this.codigo = codigo;
